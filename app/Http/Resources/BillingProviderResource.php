@@ -14,6 +14,7 @@ class BillingProviderResource extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
+            'endpoint' => $this->endpoint,
             'active' => $this->active
         ];
     }
